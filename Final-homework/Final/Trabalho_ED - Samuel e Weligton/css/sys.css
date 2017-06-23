@@ -1,0 +1,29 @@
+html {
+    background: url(spring/bg-spring.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    width: 70%;
+    background-color: rgba(255,255, 255, 0.6);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 1.2em;
+}
+
+img {
+    width: 56px;
+    height: 56px;
+    padding: 5px;
+}
+
+p:hover img {
+    outline: 2px dotted red;
+}
+
+h2:target + p,
+h2:target + p + ul {
+    background-color: lightsalmon;
+}
+
